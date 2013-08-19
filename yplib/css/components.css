@@ -1,0 +1,78 @@
+﻿/*======================================================================
+//        filename :components.css
+//        description :高级组件样式
+//
+//        author: 姚鹏
+//        date: 2013.7
+//        mail:yaopengdn@126.com
+//        http://weibo.com/u/2151926144
+//======================================================================*/
+
+/* VariableTab */
+div#tabdiv {
+	min-height: 34px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border: 1px solid #4297D7;
+	background: #2191C0 url(../images/ui-bg_gloss-wave_75_2191c0_500x100.png) 50% 50% repeat-x;
+	color: #EAF5F7;
+	font-weight: bold;
+}
+
+div#tabdiv span {
+	display:inline-block;
+	margin-top: 6px;
+	font-size: 0.5em;
+	font-weight: bold;
+}
+
+div#tabdiv li {
+	cursor: pointer;
+	list-style: none;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ui-icons_e0fdff_256x240.png) no-repeat -80px -128px;
+}
+
+div#tabcontext {
+	min-height: 564px;
+	border: 1px solid #ADD8E6;
+	border-top-width: 0;
+	text-align: center;
+}
+
+div#tabcontext iframe{
+	margin: 0 auto;
+	display: block;
+}
+
+div.tabbasic {
+	float: left;
+	width: 12%;
+	height: 29px;
+	margin: 5px .2em -1px 0;
+	border-bottom-width: 0;
+	font-weight: normal;
+	overflow: hidden;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-align: center;	
+	border: 1px solid #448DAE;
+	border-bottom-width:  0;
+}
+
+div.show {
+	border-color: #448DAE;
+	background: #79C9EC url(../images/ui-bg_glass_75_79c9ec_1x400.png) 50% 50% repeat-x;
+	color: #026890;	
+}
+
+div.hide {
+	border-color: #77D5F7;
+	background: #0078AE url(../images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;
+	color: white;
+}
+/* VariableTab end*/
